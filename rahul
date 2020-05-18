@@ -1,0 +1,19 @@
+a) What is distributed version control system?
+in distributed means user can modified data when he or she wants in the repository.he can modified data using different different framework like pycharm and other.and version control means any version of fileis supported the syem.
+b) How to create release tag for your repository?
+1.git tag release
+2 git push origin master
+
+c) How can you find all commits done in your repository?
+
+  using git log command
+
+
+d) What is difference between git pull and git clone?
+git clone means if data wants get from other users using other user respository then that command is used  is
+git clone
+if if u want to pull some data new data then used git pull
+
+
+ 6 How to merge a branch in master?
+ git merge command used for merging in the master

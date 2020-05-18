@@ -1,0 +1,26 @@
+Git:
+
+1. Clone this repository on your local system.
+2. Create your branch and add a file yourname_solution.txt answering following questions:
+
+a.) What is distributed version control system?
+
+Ans distributed version control system means that there are various serves loacated at different location and the project file has been 
+     distributed from local to various server because in case of fatality of your local system you can still fetch your project from
+    these servers. Another benifit is this that different people working at different loaction can also fetch projects.
+     
+b.) How to create a release tag for your repository?
+    Ans - git origin tag Tag_name
+c.) How can you find all commits done in your repository?
+    Ans -git log command or there is a option on git hub "commits" by clicking it you can get your commit.
+ 
+d.) What is difference between git pull and git clone?
+   Ans- git pull is used to pull the repository to your local system.
+        git clone is used for cloning your master repo and when you create the branches you can modify the file and later merge it.
+e.) How to merge a branch in master?
+    ans - git merge Branch_name
+
+3. Merge your branch into the master.
+4. Show us how can you see difference between two branches in the recording.
+5. Create a tag yourname_release in the repository.
+

@@ -1,0 +1,25 @@
+a) What is distributed version control system?
+Ans The distributed version control system like github provides all the user acess to the 
+    file stored in remote repository and it can be controlled or modified by any of the 
+    user.The copy of database of the project is there with every user in their local repository
+    so, that if by mistake or fault the data get deleted from the remote repository it can be 
+    recovered easily by uploading the copy of data from local repository. version control system
+    stores the different versions of the file.
+
+b) How to create release tag for your repository?
+Ans Once all the data is updated on the remote repositry and the project is ready for application 
+    it can be released by using command {git tag release} and then the command {git push origin master}
+    to release the final project in remote repository.
+
+c) How can you find all commits done in your repository?
+Ans All the commits in the repository can be checked by using command {git log}
+
+d) What is difference between git pull and git clone?
+Ans {git pull}command retrieves all the update data from remote repository to local repository(when the 
+     remote repository is alredy created )while {git clone }command copy all the data that are there in 
+     the remote repository( this command is only for the new repository)
+
+e) How to merge a branch in master?
+Ans step1-  Generate the pull request from the designated branch (here abhinav)
+    step2-  we can use git command as well as we can make use of GUI github to merge data in branch
+            {git merge abhinav}
